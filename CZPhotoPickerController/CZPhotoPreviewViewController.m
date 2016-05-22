@@ -112,6 +112,8 @@
     self.title = self.previewLabel.text;
   }
 
+  self.chooseButton.title = NSLocalizedString(@"Choose", nil);
+  self.cancelButton.title = NSLocalizedString(@"Cancel", nil);
   [self.view bringSubviewToFront:self.toolbar];
   [self.view bringSubviewToFront:self.previewLabel];
 }
